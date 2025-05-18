@@ -10,3 +10,5 @@
 # print(x(eval(input("Enter the data: "))))
 sum = lambda n1,n2,n3,n4=0,n5=0 : n1+n2+n3+n4+n5
 print(sum(1,2,3,4,5))  # output 15
+
+
