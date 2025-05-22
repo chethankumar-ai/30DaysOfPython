@@ -12,3 +12,5 @@ def friendly_pairs(num1,num2):
     else:
         return False
 print(friendly_pairs(6,28))  # True
+
+

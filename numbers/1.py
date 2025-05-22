@@ -8,3 +8,4 @@ def get(*args):
 
 put=get
 put(1,2,'hello','aeiou')
+
