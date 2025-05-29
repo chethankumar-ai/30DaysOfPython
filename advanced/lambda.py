@@ -13,4 +13,3 @@ x= lambda n1,n2,n3,n4=0,n5=0:n1+n2+n3+n4+n5
 print(x(1, 2, 3))  # output 6
 print(x(1, 2, 3, 4))  # output 10
 print(x(1, 2, 3, 4, 5))  # output 15
-
