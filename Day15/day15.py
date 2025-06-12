@@ -16,5 +16,4 @@ def factorial(n):
         return x * inner_fact(x - 1)
     
     return inner_fact(n)  # only outer call is timed
-
-factorial(5)
+print(factorial(5))
