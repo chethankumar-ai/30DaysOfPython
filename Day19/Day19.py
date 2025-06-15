@@ -19,7 +19,10 @@ def download_files_concurrently(urls):
 # Example usage
 if __name__ == "__main__":
     urls = [
-        "https://www.linkedin.com/in/chethan-kumar-profile",
+        "https://example.com/file1.txt",
+        "https://example.com/file2.txt",
+        "https://example.com/file3.txt",
+        "https://example.com/file4.txt"
     ]
     download_files_concurrently(urls)
     print("All files downloaded.")
