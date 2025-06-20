@@ -8,7 +8,8 @@ def fahrenheit_to_celsius(fahrenheit):
 def main():
     parser = argparse.ArgumentParser(description="Temperature Converter CLI Tool")
     parser.add_argument("temperature", type=float, help="Temperature value to convert")
-    parser.add_argument("--to", choices=["celsius", "fahrenheit"], required=True, help="Convert to Celsius or Fahrenheit")
+    parser.add_argument("--to", choices=["celsius", "fahrenheit"], 
+                        required=True, help="Convert to Celsius or Fahrenheit")
     args = parser.parse_args()
 
     if args.to == "celsius":
