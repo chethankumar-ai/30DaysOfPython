@@ -2,3 +2,5 @@ old_backup/
 Day3/
 30_days_Python_chethankumar.xlsx
 .DS_Store
+venv/
+.venv/
