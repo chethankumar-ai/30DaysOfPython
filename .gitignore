@@ -4,3 +4,6 @@ Day3/
 .DS_Store
 venv/
 .venv/
+.vscode/
+__pycache__/
+venv/
